@@ -1,0 +1,365 @@
+2025-05-03T15:59:34+02:00
+HTTP Code: 404
+Curl Error: 
+Response: 
+
+2025-05-03T16:02:26+02:00
+HTTP Code: 404
+Curl Error: 
+Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-2.0-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2025-05-03T16:06:49+02:00
+HTTP Code: 404
+Curl Error: 
+Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2025-05-03T16:07:54+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "This \"article\" provides no context or information.  Therefore, a reasonable AI response to \"hello\" would simply be a greeting in return.  Some options include:\n\n* Hello!\n* Hi there.\n* Hello. How can I help you?\n* Greetings!\n\nSince the article content is meaningless, the AI can't relate its response to it.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.15786313391351081
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 24,
+    "candidatesTokenCount": 77,
+    "totalTokenCount": 101,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 24
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 77
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:08:20+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Since the provided \"article content\" is just gibberish, there's no way to know what's in a photo.  The text gives no information whatsoever.  I need more context to answer your question.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.076143323050604922
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 29,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 74,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 29
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 45
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:11:53+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The article appears to be a brief introduction by someone named Grissa Abdallah who is presenting smart equipment for hotels.  The title \"hamma kleb\" doesn't seem to relate to the content and might be a mistake or placeholder.  The content itself is very short and doesn't give any details about the equipment being offered.  It's essentially just a headline and a very brief introduction.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.067677940230771713
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 49,
+    "candidatesTokenCount": 83,
+    "totalTokenCount": 132,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 49
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 83
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:13:04+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Hello! How can I help you today?  Are you interested in learning more about Grissa Abdallah and the smart hotel equipment they are presenting?\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.10930917339940224
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 45,
+    "candidatesTokenCount": 31,
+    "totalTokenCount": 76,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 45
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 31
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:13:19+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The provided article title and content seem mismatched and poorly written.  \"hamma kleb\" doesn't translate to anything meaningful in common languages.  It might be a typo or slang. The content, while grammatically understandable as introductory French (\"Hello, my name is Grissa Abdallah, I'm going to present our smart equipment for your hotels\"), is very basic and lacks detail.\n\nThe user's response of \"yes\" doesn't provide any context or clarify the situation. It's unclear what they are affirming.\n\nTherefore, the AI can't do much more than point out these issues. To be helpful, the AI needs more information.  For example:\n\n* **What is the intended topic?**  What kind of smart hotel equipment is being discussed?\n* **Who is the target audience?** Is this a sales pitch, a blog post, or something else?\n* **What is the purpose of the \"yes\"?**  Is the user confirming understanding, expressing agreement, or something else?\n\nWith more context, the AI could help improve the title, expand the content, translate it, or provide other relevant assistance.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.22361426353454589
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 45,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 45
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 240
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:16:51+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "You're welcome!  Is there anything else I can help you with regarding this article or the smart hotel equipment?  Perhaps you have questions about the equipment itself, or you'd like me to try translating the introduction?\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.13110367795254321
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 46,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 93,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 46
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 47
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:17:13+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The provided text says, \"Hello, my name is Grissa Abdallah and I am going to present our smart equipment for your hotels.\"  Unfortunately, it doesn't actually describe the equipment itself.  It only promises a presentation.  You'll need to ask Grissa Abdallah for more information about the smart equipment they offer.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.082308115277971536
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 53,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 123,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 53
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 70
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T16:17:28+02:00
+HTTP Code: 200
+Curl Error: 
+Response: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The provided text \"hamma kleb\" likely means \"every dog\" or \"all dogs\" in Tunisian Arabic.  It doesn't seem to relate to the rest of the content, which is in French and discusses smart hotel equipment.  Therefore, the user's comment \"can't you read the photo?\" suggests there's a photo associated with this article that likely contains the phrase \"hamma kleb,\" and the AI is being asked why it isn't interpreting or addressing the content of the photo.  The AI cannot process images unless specifically designed to do so.  If there *is* an image, the AI can't \"read\" it in the same way a human can.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.15683535871834592
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 52,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 197,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 52
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 145
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-pro-002"
+}
+
+
+2025-05-03T19:40:14+02:00
+HTTP Code: 404
+Curl Error: 
+Response: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro-vision is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
+2025-05-03T19:41:17+02:00
+HTTP Code: 404
+Curl Error: 
+Response: {
+  "error": {
+    "code": 404,
+    "message": "Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.",
+    "status": "NOT_FOUND"
+  }
+}
+
+
