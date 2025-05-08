@@ -1,5 +1,5 @@
 <?php
-putenv('OPENAI_API_KEY=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');
+//putenv('OPENAI_API_KEY=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');
 // --- Chatbot AJAX handler ---
 if (
     $_SERVER['REQUEST_METHOD'] === 'POST' &&

@@ -2,7 +2,7 @@
 // grok_proxy.php: Proxy for Grok API requests from the chatbot
 header('Content-Type: application/json');
 // Set your Grok API key here
-$apiKey = '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'; // Set by user
+//$apiKey = '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'; // Set by user
 $apiUrl = 'https://api.groq.com/openai/v1/chat/completions';
 $input = json_decode(file_get_contents('php://input'), true);
 if (!isset($input['messages']) || !is_array($input['messages'])) {
