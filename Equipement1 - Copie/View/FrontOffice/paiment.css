@@ -1,0 +1,273 @@
+/* Styles spécifiques à la page de paiement */
+.payment-container {
+    background: green;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.payment-option {
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-container {
+    margin-top: 20px;
+    display: none;
+}
+
+.form-container input,
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1aab47;
+}
+
+.payment-images img {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-input {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card-input input {
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+
+/* Preloader Styles */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.preloader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.spinner {
+    display: flex;
+    gap: 15px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #003087;
+    animation: bounce 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) alternate infinite;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+    background-color: #1849a9;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+    background-color: #32cd32;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-20px) scale(0.8);
+    }
+}
+
+/* Header Styles */
+header {
+    background-color: #dcf7dc;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between logo image and text */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 65px; /* Adjust the size of the logo image */
+    height: 65px;
+    object-fit: contain; /* Ensure the image scales properly */
+}
+
+.hotelia {
+    color: #003087; /* Dark Blue for HOTELIA */
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+.smart {
+    color: #32cd32; /* Green for SMART */
+    font-family: "Arial Black", Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003087; /* Dark Blue */
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #32cd32; /* Green */
+}
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column p {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .newsletter-form {
+        justify-content: center;
+    }
+}
+:root {
+    --energy-green: #4CAF50;
+    --water-blue: #2196F3;
+    --cleaning-teal: #009688;
+    --waste-orange: #FF9800;
+    --tech-purple: #9C27B0;
+    --garden-green: #8BC34A;
+    --experience-amber: #FFC107;
+    --dark-text: #263238;
+    --light-bg: #f5f5f5;
+    --card-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+
+
+
+/* Floating eco elements decoration */
+.eco-decoration {
+    position: fixed;
+    opacity: 0.1;
+    z-index: -1;
+    font-size: 10rem;
+}
+
+.leaf-1 { top: 10%; left: 5%; color: var(--garden-green); }
+.leaf-2 { bottom: 15%; right: 5%; color: var(--energy-green); }
+.water-drop { top: 50%; left: 10%; color: var(--water-blue); }
+
+
+  /* Blurry background overlay */
+  .blur-overlay {
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none; /* Initially hidden */
+  }
+  
+  
+  .footer {
+    background-color: #003087;
+    color: #ffffff;
+    padding: 60px 0 20px;
+    margin-top: 60px;
+}
+
+
+
